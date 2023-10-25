@@ -15,7 +15,7 @@ ruta.get("/nuevoproducto",admin, async(req,res)=>{
 });
 
 ruta.post("/nuevoproducto",subirArchivo(),async(req,res)=>{
-    req.body.foto=req.file.originalname;
+    req.body.foto=req.file.filename;
     var error = await nuevoProducto(req.body);
     res.redirect("/productos");
 });
@@ -28,7 +28,11 @@ ruta.get("/editarProducto/:id",async(req,res)=>{
 });
 
 ruta.post("/editarProducto",subirArchivo(),async(req,res)=>{
-    req.body.foto=req.file.originalname;
+    if (req.file=null) {
+        req.body.foto=req.file.filename;
+    } else {
+        req.body.foto=req.body.fotoAnterior;
+    }
     var error = await modificarProducto(req.body);
     res.redirect("/productos");
 });
