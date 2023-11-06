@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "peckerhealth",
+  "private_key_id": "13bed5b0fdf6e65edfe98e80ba8451519fea2362",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC11CARS4zSzEm9\nzAE5IVHOQOt7sVIr29YYTm+ClwZeHrHUzYuKOtgaCnPoxKMZ9sS6QcLnjlVR2Lo7\nLz9RCw1poLJrIFIRSJv3duqV1n3UsIcl10RiL333aBLEWDABoio5ljI0ek8QKlQ1\n3zMH/GJ7GshTbeIzmjb/4oZFnXY25EfN8ZWkiIj3fZd68wsbdbElBjqFGsclMi4d\nSfVBp+8Zr7Yx3n2+4GxtYudZR2ZlA0YBUIGFD1G/+ht0P7xwHlUK2SyA6bkSxRmb\nfI2TAyi6YsTzDyTXRl0xTor65QCVUtIV+PhZuhK1OcFN/K8GWJn4krWk9UoecQLv\nVhHqSbzFAgMBAAECggEAAlEzivThyuV30WsyQZA+o/1yp7tjbR29DgJSMT8fY/9x\nJH8VAuTEZC5piTMh3IUJl+8kEmIQoPr4WxCnu1YXmz4xcvf4XGNViTHZHMl/j938\nNClKGk9NK4t8fb2J0J6XUsgquni1omKuew1ttKLZG4UOW4BKGy+05X86Vw+fibOZ\nlfgbVg9ozsRRJk1BFp/KFeAU1dICNMrZ/30f88MDwCjfR7AdLtmOCHtJ4fqneQxN\nPaqU+7zqc1peaNyDkaFdCvQh1lyE+/jGjDPdvAkFUyYaCfGLE9kvftKdtE3D1fCY\ne1Thrl6H+vOrfdh4p57qZqPPZ5Bo3alJutnzlpNuCwKBgQD2ceQzUvKzj8tcgS/T\nZPf1rS75kPsYYrZNbz2MzEq1YyK8R4gp5B83xEFtoCr31JXJJ/NwHFHaPfsdGHY4\nps3Xn0FQDlxGulYzZ//M8W/ty+5R88BYvyYzxBEvmDHAFp9ARQ66mV3plfVgy4ri\nNEHNh9/oIBGRV489pZacfiqJ5wKBgQC84OE8EiTICok32bnI368upOgSN2efkMx8\nJPNu6xOZSvAI6o7uX5SGjFxwXO7Dj3icTORWVg/NjnQbv7kdLVeLsak7R+V20PGx\nc59ugNRNPC3kmEgJH8pZjBfJ5b7MQC5vl1HvIrjVZrjMvYr1N5tcNvYm6z2KbI3O\niP/qle6mcwKBgB8vWEYaV/Xa20vwWQHyA+KFsK0J6Iw0aYcw7WP0sftz+QBEOPm8\nESs4XWMm4mkL8IxMzuQ/4SexsiYDY2pVyTRgxZ4AwzJ7/85veZIQdy5rINQj+RIB\n1i60v8v7AUiiVDKIyo1YPOcC/9LozsFDBZShffbcn/x5TPnrCzzwRie/AoGAUBx9\ny/HSIfq+Cq9Rao7dicYuHJPdYsOSx9EQY2pXrLwpJU7/gsGNiKf+CTaRmua+fGTs\nsGXeXAxg2Ogvxt1VdY3MPrWW8RdcfCyTYdZItd2hhYTFgQE33VVbPaoxjAZo67Hd\n8bTjergQB98ZEjscrTcunoFGX/D9EK3xBfnD+FsCgYA/QPbaBrzgDDA7jRwrBadb\nFnzAqD1tW7b1EmUdNuLuA8usZxiGjQTvYzKUQJwUQuCR0oTgMfdAh8m97nPDfHsK\nckvATHwAELbrlFp+A0JwEThlBk1XK9hXixVArbhMXplD7DH/zC+zroVvaz5ssvzz\nLjS0xRm+ChYirV9LVH94aA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-ur8jj@peckerhealth.iam.gserviceaccount.com",
+  "client_id": "115833229447225122326",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-ur8jj%40peckerhealth.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
