@@ -62,7 +62,7 @@ ruta.post("/login",async(req,res)=>{
         if (user.admin) {
             console.log("Administrador");
             req.session.admin=req.body.usuario;
-            res.redirect("/nuevoProducto");
+            res.redirect("/nuevousuario");
         } else {
             console.log("Usuario");
             req.session.usuario=req.body.usuario;

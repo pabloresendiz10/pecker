@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #03878d;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .card {
+    background-color: #ffffff; 
+    border: 1px solid #ffffff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .card-header h1 {
+    color: #000000; 
+  }
+  
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #0099CC;
+    border-radius: 10px;
+    background-color: #E0FFFF; 
+  }
+  
+
+  .table tbody tr:nth-child(even) {
+    background-color: #B0E0E6; 
+  }
+  
+  a {
+    color: #0099CC; 
+  }
+  
+  a:hover {
+    text-decoration: none; 
+    font-weight: bold; 
+  }
+  
+  @keyframes cambiarColorFondo {
+    0% {
+      background-color: aqua;
+    }
+    25% {
+      background-color: lightblue;
+    }
+    50% {
+      background-color: lightcyan;
+    }
+    75% {
+      background-color: paleturquoise;
+    }
+    100% {
+      background-color: aqua;
+    }
+  }
+  

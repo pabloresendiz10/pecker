@@ -46,14 +46,17 @@ async function modificarUsuario(datos) {
         if (datos.password=="") {
             datos.password=user.password;
             datos.salt=user.salt;
+            datos.admin=user.admin;
         } else {
             var {salt,hash} = generarPassword(datos.password);
             datos.password=hash;
             datos.salt=salt;
+            datos.admin=user.admin;
         }
         var usuario = new Usuario(datos.id, datos);
         if (usuario.bandera==0) {
             try {
+                //console.log(usuario.obtenerUsuario);
                 await conexion.doc(usuario.id).set(usuario.obtenerUsuario);
                 console.log("Usuario actualizado correctamente");
                 error = 0;

@@ -1,0 +1,153 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.body{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(
+        90deg,
+        rgb(196, 231, 234)25%,
+        rgb(44, 184, 199)100%
+    );
+}
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    height: 570px;
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.nombre_proyecto{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(3, 135, 141);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.caja_texto{
+    display: flex;
+    flex-wrap: wrap;
+    height: 40px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    height: 40px;
+    width: 300px;
+    border-radius: 25px;
+    font-size: medium;
+}
+
+.boton_registrarse{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+button{
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: rgb(3, 135, 141);
+    color: white;
+    border: 0px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.caja_terminos{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.input_terminos{
+    background-color: blue;
+    width: 15px;
+    height: 15px;
+}
+
+.errorCorreo,.errorPassword,.errorConfPassword,.errorTerminos{
+    color: red;
+    font-size: 10px;
+}
+
+.borrar{
+    display: none;
+}
+
+.mostrar{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo_proyecto{
+    display: flex;
+    height: 200px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(196, 231, 234);
+    border-radius: 15px;    
+}
+
+.boton_entrar{
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: rgb(3, 135, 141);
+    color: white;
+    border: 0px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.boton_crear_cuenta{
+    height: 40px;
+    width: 280px;
+    border-radius: 10px;
+    background-color: rgb(3, 135, 141);
+    color: white;
+    border: 0px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.caja_olvidar_password{
+    display: flex;
+    width: 100%;
+    height: 4px;
+    justify-content: center;
+    margin-block: 5px;
+}
+
+.olvidar_password{
+    color: #03878d;
+    font-weight: bold;
+}
+
+.caja_entrar, .caja_crear{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.bienvenido{
+    color: aquamarine;
+}

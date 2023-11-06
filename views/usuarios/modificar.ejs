@@ -1,24 +1,34 @@
 <%- include("../templates/encabezado") %>
 <%- include("../templates/menu") %>
-<div class="container mt-5">
-    <form action="/editarUsuario" method="post" enctype="multipart/form-data">
-        <div class="card">
-            <div class="card-header">
-                <h1>Editar Usuario</h1>
+<div class="body">
+    <div class="contenedor">
+        <form action="/editarUsuario" method="post" class="contenedor" enctype="multipart/form-data">
+            <div class="nombre_proyecto"><h1>PECKERHEALTH</h1></div>
+            <input type="hidden" name="id" id="id" value="<%= user.id %>">
+            <input type="hidden" name="fotoAnterior" id="fotoAnterior" value="<%= user.foto %>">
+            <div class="caja_texto">
+                <input type="text" value="<%= user.nombre %>" name="nombre" id="nombre" placeholder="Nombre" autofocus>
+                <span mensajeNombre></span>
             </div>
-            <div class="card-body">
-                <input type="hidden" name="id" id="id" value="<%= user.id %>">
-                <input type="hidden" name="fotoAnterior" id="fotoAnterior" value="<%= user.foto %>">
-                <input class="form-control mb-3" type="text" value="<%= user.nombre %>" name="nombre" id="nombre" placeholder="Nombre" autofocus>
-                <input class="form-control mb-3" type="text" value="<%= user.usuario %>" name="usuario" id="usuario" placeholder="Usuario">
-                <input class="form-control mb-3" type="text" value="" name="password" id="password" placeholder="Nuevo password o dejar en blanco para conservar el anterior">
+            <div class="caja_texto">
+                <input type="text" value="<%= user.usuario %>" name="usuario" id="usuario" placeholder="Usuario">
+                <span mensajeUsuario></span>
+            </div>
+            <div class="caja_texto">
+                <input type="email" value="<%= user.correo %>" name="correo" id="correo" placeholder="Correo">
+                <span mensajeNombre></span>
+            </div>
+            <div class="caja_texto">
+                <input type="password" name="password" id="password" placeholder="Contraseña anterior guardada">
+                <span mensajePassword></span>
+            </div>
+            <div class="caja_texto">
                 <input class="form-control mb-3" type="file" name="foto" id="foto">
             </div>
-            <div class="card-footer">
-                <button class="btn btn-primary mb-3" type="submit">Editar usuario</button>
-                <button class="btn btn-secondary" type="reset">Limpiar campos</button>
+            <div class="boton_registrarse">
+                <button type="submit">Actualizar</button>
             </div>
-        </div>
-    </form>
+        </form>
+    </div>
 </div>
 <%- include("../templates/pie") %>

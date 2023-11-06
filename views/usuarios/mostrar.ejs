@@ -1,5 +1,6 @@
 <%- include("../templates/encabezado") %>
 <%- include("../templates/menu") %>
+<link rel="stylesheet" type="text/css" href="/web/css/estilosMostrar.css">
 <div class="container mt-5">
     <div class="card">
         <div class="card-header">
@@ -12,6 +13,7 @@
                         <th>Id</th>
                         <th>Nombre</th>
                         <th>Usuario</th>
+                        <th>Correo</th>
                         <th>Password</th>
                         <th>Foto</th>
                         <th>Editar/Borrar</th>
@@ -25,6 +27,7 @@
                             <td><%= usuario.id %></td>
                             <td><%= usuario.nombre %></td>
                             <td><%= usuario.usuario %></td>
+                            <td><%= usuario.correo %></td>
                             <td>**********</td>
                             <td><img src="/images/<%= usuario.foto %>" width="100px"></td>
                             <td>
@@ -42,3 +45,4 @@
     </div>
 </div>
 <%- include("../templates/pie") %>
+

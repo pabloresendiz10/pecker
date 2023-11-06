@@ -1,20 +1,24 @@
 <%- include("../templates/encabezado") %>
 <%- include("../templates/menu") %>
-<div class="container mt-5">
-    <form action="/login" method="post">
-        <div class="card">
-            <div class="card-header">
-                <h1>Login</h1>
+<div class="body">
+    <div class="contenedor">
+        <form action="/login" method="post" id="formulario" class="contenedor">
+            <div class="logo_proyecto"><img src="../web/images/logo_pecker.png" alt="" height="180" width="170"></div>
+            <div class="caja_texto">
+                <input type="text" name="usuario" id="usuario" placeholder="Usuario" autofocus>
+                <span mensajeUsuario></span>
             </div>
-            <div class="card-body">
-                <input class="form-control mb-3" type="text" name="usuario" id="usuario" placeholder="Usuario" autofocus>
-                <input class="form-control mb-3" type="text" name="password" id="password" placeholder="Password">
+            <div class="caja_texto">
+                <input type="password" name="password" id="password" placeholder="Contraseña">
+                <span mensajePassword></span>
             </div>
-            <div class="card-footer">
-                <center><button class="btn btn-primary mb-3" type="submit">Iniciar sesión</button></center>
+            <div class="caja_entrar">
+                <button type="submit" class="boton_entrar">Iniciar sesión</button>
+            </div>
+            <div class="caja_entrar">
                 <center><a href="/nuevousuario">Registrarse</a></center>
             </div>
-        </div>
-    </form>
+        </form>
+    </div>
 </div>
 <%- include("../templates/pie") %>
